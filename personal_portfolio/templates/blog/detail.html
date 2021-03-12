@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% extends 'portfolio/base.html' %}
+{% block content %}
+    <p>{{ blog.title }}</p>
+    <p>--{{ blog.date|date:'F jS Y' }}--</p>
+    <p>{{ blog.description }}</p>
+{% endblock %}
+</body>
+</html>

@@ -1,0 +1,1 @@
+# Django Course - General approach and REST API with Django Rest Framework
